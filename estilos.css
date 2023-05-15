@@ -15,7 +15,8 @@ h1{
     padding: 0;
     margin: 0%;
     width: 100%; /* ancho del contenedor */
-    height: auto; /* altura se ajustará automáticamente */
+    height: 100%; /* altura se ajustará automáticamente */
+    object-fit: cover; /* ajusta la imagen al contenedor sin deformarse */
 }
 
 .textoBaAs{
